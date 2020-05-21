@@ -26,3 +26,17 @@ const team = {
 	[role]: person,
 	[role2]: person2
 };
+
+// Methods
+const add = function(x, y) {
+	return x + y;
+};
+
+const math = {
+	add: function(x, y) {
+		return x + y;
+	},
+	multiply: function(x, y) {
+		return x * y;
+	}
+};
