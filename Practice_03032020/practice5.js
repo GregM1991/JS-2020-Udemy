@@ -40,3 +40,14 @@ const math = {
 		return x * y;
 	}
 };
+
+// Shorter syntax for methods
+const auth = {
+	username: 'Tommyboy',
+	login() {
+		console.log('Logged you in!');
+	},
+	logout() {
+		console.log('Goodbye!');
+	}
+};
