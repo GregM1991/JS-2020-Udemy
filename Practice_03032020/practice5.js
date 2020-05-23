@@ -82,4 +82,7 @@
 
 // const printBio = person.printBio;
 
-[ 'literally', 'cray cray', "I can't event", 'Totes!', 'YOLO', "Can't stop, won't stop" ];
+const annoyer = {
+	phrases: [ 'literally', 'cray cray', "I can't event", 'Totes!', 'YOLO', "Can't stop, won't stop" ]
+	// start
+};
