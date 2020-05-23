@@ -68,6 +68,10 @@ const person = {
 	nickName: 'Cher',
 	fullName() {
 		const { first, last, nickName } = this;
-		console.log(`${first} ${last} AKA: ${nickName}`);
+		return `${first} ${last} AKA: ${nickName}`;
+	},
+	printBio() {
+		const fullName = this.fullName();
+		console.log(`${fullName} is a person!`);
 	}
 };
