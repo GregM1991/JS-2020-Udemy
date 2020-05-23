@@ -73,5 +73,11 @@ const person = {
 	printBio() {
 		const fullName = this.fullName();
 		console.log(`${fullName} is a person!`);
+	},
+	laugh: () => {
+		console.log(this);
+		console.log(`${this.nickName} says HAHAHA`);
 	}
 };
+
+const printBio = person.printBio;
